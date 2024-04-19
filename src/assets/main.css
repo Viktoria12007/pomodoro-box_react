@@ -1,0 +1,55 @@
+@import 'normalize.css';
+@import "fonts.css";
+
+:root {
+    --black: #333333;
+    --white: #FFFFFF;
+    --gray: #C4C4C4;
+    --gray-dark: #999999;
+    --gray-light: #F4F4F4;
+    --gray-border: #E4E4E4;
+    --green: #A8B64F;
+    --green-dark: #899441;
+    --red: #DC3E22;
+    --red-dark: #B7280F;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'SF UI Text', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    /*font-size: 16px;*/
+    line-height: 17px;
+    font-weight: 500;
+    padding: 19px 50px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+}
+.main {
+    padding-top: 73px;
+}
