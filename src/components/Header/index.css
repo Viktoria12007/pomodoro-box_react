@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: var(--white);
+    box-shadow: 0px 10px 63px 0px rgba(0, 0, 0, 0.07);
+}
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__wrap.container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header__link {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: var(--red);
+    transition: color .4s ease-in-out;
+}
+.header__icon {
+    fill: var(--red);
+    transition: fill .4s ease-in-out;
+}
+.header__link:hover,
+.header__link:active {
+    color: var(--red-dark);
+}
+.header__link:hover .header__icon,
+.header__link:active .header__icon {
+    fill: var(--red-dark);
+}
