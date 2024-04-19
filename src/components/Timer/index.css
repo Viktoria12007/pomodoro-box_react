@@ -1,0 +1,61 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 507px;
+}
+.timer__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white);
+    padding: 19px 40px;
+    background-color: var(--gray-dark);
+}
+.timer__header-task {
+    font-weight: 700;
+}
+.timer__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-light);
+}
+.timer__time-wrap {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.timer__time {
+    font-size: 150px;
+    font-weight: 200;
+    line-height: 179px;
+}
+.timer__icon {
+    fill: var(--gray);
+    transition: fill .4s ease-in-out;
+}
+.timer__increase-button:hover .timer__icon,
+.timer__increase-button:active .timer__icon {
+    fill: var(--green-dark);
+}
+.timer__task {
+    margin-bottom: 32px;
+}
+.timer__task_gray {
+    color: var(--gray-dark);
+}
+.timer__action-wrap {
+    display: flex;
+    gap: 25px;
+}
+.v-enter-active,
+.v-leave-active {
+    transition: opacity .4s ease-in-out;
+}
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}
