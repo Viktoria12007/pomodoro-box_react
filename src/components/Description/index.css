@@ -1,0 +1,15 @@
+.description__title {
+    margin-bottom: 3px;
+}
+.description-list {
+    margin-bottom: 25px;
+}
+.description-list__item {
+    line-height: 33px;
+    list-style-type: none;
+}
+.description-list__item::before {
+    content: '•';
+    color: var(--red-dark);
+    padding-right: 15px;
+}
