@@ -1,0 +1,49 @@
+.tasks-list {
+    width: 370px;
+    list-style: none;
+    border-top: 1px solid var(--gray-border);
+    border-bottom: 1px solid var(--gray-border);
+    margin-bottom: 19px;
+}
+.tasks-list__item {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    padding: 15px 0;
+}
+.tasks-list__item:not(:last-child) {
+    border-bottom: 1px solid var(--gray-border);
+}
+.tasks-list__pomodoro {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1px solid var(--gray);
+    margin-right: 4px;
+}
+.tasks-list__task {
+    margin-right: auto;
+}
+.tasks-list__button {
+    padding: 10px 0px;
+}
+.tasks-list__total-time {
+    font-weight: 300;
+    color: var(--gray-dark);
+}
+.v-move,
+.v-enter-active,
+.v-leave-active {
+    transition: opacity .4s ease-in-out, transform .4s ease-in-out;
+}
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+    transform: translateX(30px);
+}
+.v-leave-active {
+    position: absolute;
+}
