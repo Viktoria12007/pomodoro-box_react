@@ -1,0 +1,14 @@
+.main__wrap {
+    display: flex;
+    gap: 16px;
+    /*height: calc(100vh - 75px);*/
+    padding: 100px 0;
+}
+/*.main__wrap > * {*/
+/*  width: 50%;*/
+/*}*/
+.main__left-column {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
